@@ -1,0 +1,82 @@
+{
+  "ok": true,
+  "result": [
+    {
+      "update_id": 898015474,
+      "message": {
+        "message_id": 1,
+        "from": {
+          "id": 807626742,
+          "is_bot": false,
+          "first_name": "Igor",
+          "username": "vasiaboyalfadog",
+          "language_code": "en"
+        },
+        "chat": {
+          "id": 807626742,
+          "first_name": "Igor",
+          "username": "vasiaboyalfadog",
+          "type": "private"
+        },
+        "date": 1639508141,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 898015475,
+      "message": {
+        "message_id": 2,
+        "from": {
+          "id": 807626742,
+          "is_bot": false,
+          "first_name": "Igor",
+          "username": "vasiaboyalfadog",
+          "language_code": "en"
+        },
+        "chat": {
+          "id": 807626742,
+          "first_name": "Igor",
+          "username": "vasiaboyalfadog",
+          "type": "private"
+        },
+        "date": 1639508374,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 898015476,
+      "message": {
+        "message_id": 4,
+        "from": {
+          "id": 807626742,
+          "is_bot": false,
+          "first_name": "Igor",
+          "username": "vasiaboyalfadog",
+          "language_code": "en"
+        },
+        "chat": {
+          "id": 807626742,
+          "first_name": "Igor",
+          "username": "vasiaboyalfadog",
+          "type": "private"
+        },
+        "date": 1639511023,
+        "text": "привет"
+      }
+    }
+  ]
+}

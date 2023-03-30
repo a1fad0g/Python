@@ -1,0 +1,50 @@
+1. wget http://repo.mysql.com/mysql-apt-config_0.8.10-1_all.deb
+2. sudo dpkg -i mysql-apt-config_0.8.10-1_all.deb
+3. sudo dpkg-reconfigure mysql-apt-config
+
+4. sudo apt update
+
+5. sudo apt-cache policy mysql-server
+
+6. sudo mkdir -p /etc/mysql/conf.d
+
+7. sudo apt install -f mysql-client=5.7.30-1ubuntu18.04
+
+8. sudo apt install -f mysql-community-server=5.7.30-1ubuntu18.04
+
+9. sudo apt install -f mysql-server=5.7.30-1ubuntu18.04
+
+10. sudo nano /etc/apt/preferences.d/mysql
+
+Package: mysql-server
+Pin: version 5.7.30-1ubuntu18.04
+Pin-Priority: 1001
+
+Package: mysql-client
+Pin: version 5.7.30-1ubuntu18.04
+Pin-Priority: 1001
+
+Package: mysql-community-server
+Pin: version 5.7.30-1ubuntu18.04
+Pin-Priority: 1001
+
+Package: mysql-community-client
+Pin: version 5.7.30-1ubuntu18.04
+Pin-Priority: 1001
+
+Package: mysql-apt-config
+Pin: version 0.8.10-1
+Pin-Priority: 1001
+
+
+
+
+
+if you not see version 5.7(step 5) in your checklist> then make this commands: > back steep 1
+sudo apt update
+sudo apt install wget -y
+wget https://dev.mysql.com/get/mysql-apt-config_0.8.12-1_all.deb
+
+sudo dpkg -i mysql-apt-config_0.8.12-1_all.deb
+sudo apt install -f mysql-client=5.7* mysql-community-server=5.7* mysql-server=5.7*
+sudo mysql_secure_installation
